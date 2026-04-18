@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --background: 245 245 245;
+    --foreground: 26 26 26;
+    --card: 255 255 255;
+    --border: 229 229 229;
+  }
+
+  .dark {
+    --background: 18 18 18;
+    --foreground: 245 245 245;
+    --card: 30 30 30;
+    --border: 45 45 45;
+  }
+}
